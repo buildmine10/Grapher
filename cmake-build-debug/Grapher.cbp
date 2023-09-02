@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Grapher"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/colli/CLionProjects/Grapher/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Grapher">
+				<Option output="C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Grapher.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/colli/CLionProjects/Grapher/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/C++ Libraries/freeglut-3.2.1/include"/>
+					<Add directory="C:/C++ Libraries/glew-2.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 Grapher"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Grapher/fast">
+				<Option output="C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Grapher.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/colli/CLionProjects/Grapher/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/C++ Libraries/freeglut-3.2.1/include"/>
+					<Add directory="C:/C++ Libraries/glew-2.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 Grapher/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/colli/CLionProjects/Grapher/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/colli/CLionProjects/Grapher/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/colli/CLionProjects/Grapher/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Camera.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Camera.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Math/Matrix4.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Math/Matrix4.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Math/TransformationMatrix.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Math/TransformationMatrix.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Math/Vector3.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Math/Vector3.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Pipelines/LinePipeline.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Pipelines/LinePipeline.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Pipelines/MeshPipeline.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Pipelines/MeshPipeline.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Pipelines/Pipeline.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Pipelines/Pipeline.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Pipelines/VolumePipeline.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Pipelines/VolumePipeline.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Plots/ColorField.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Plots/ColorField.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Plots/Curve.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Plots/Curve.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Plots/IsoSurface.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Plots/IsoSurface.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Plots/Surface.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Plots/Surface.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Renderables/Line.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Renderables/Line.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Renderables/Mesh.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Renderables/Mesh.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Renderables/Volume.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/Renderables/Volume.h">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/main.cpp">
+			<Option target="Grapher"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/CLionProjects/Grapher/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
